@@ -67,8 +67,8 @@ app.use(myRejectedCoSupervisorsRoutes);
 const topicsRouter = require("./routes/topicsRoutes");
 app.use(topicsRouter);
 
-const markingSchemaRouter = require("./routes/markingSchemaRoutes");
-app.use(markingSchemaRouter);
+// const markingSchemaRouter = require("./routes/markingSchemaRoutes");
+// app.use(markingSchemaRouter);
 
 const evaluationsRouter = require("./routes/evaluationsRoutes");
 app.use(evaluationsRouter);
