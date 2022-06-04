@@ -76,6 +76,9 @@ app.use(evaluationsRouter);
 const messageRoutes = require("./routes/messages");
 app.use("/api/messages", messageRoutes);
 
+app.get('/', (req, res) => {
+  res.send('Server is ready');
+});
 
 
 const startApp = async () => {
