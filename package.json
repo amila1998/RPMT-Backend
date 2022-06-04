@@ -31,5 +31,5 @@
     "socket.io": "^4.5.1",
     "validator": "^13.7.0"
   },
-  "engines": {"node":"12.4.0", "npm": "6.9.0"}
+  "engines": {"node":"14.18.1", "npm": "6.14.15"}
 }
